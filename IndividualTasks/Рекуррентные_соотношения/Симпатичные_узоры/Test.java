@@ -28,6 +28,7 @@ class Algorithm{
         writer.write(str);
         writer.close();
     }
+    
     Algorithm(){
         try {
             List<Integer> list = new ArrayList<>(input());
